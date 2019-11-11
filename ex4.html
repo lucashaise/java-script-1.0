@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>meu primeiro Javascript</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+<script>
+
+function -() {
+  var x = document.getElementById("v1").value;
+  var y = document.getElementById("v2").value;
+    if (x - y){
+      document.getElementById('resultado').innerHTML = x - y;
+    } 
+}
+
+</script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+<a href='ex1.html'>ex1<a>
+  <a href='ex2.html'>ex2<a>
+    <a href='ex3.html'>ex3<a>
+<br>
+<br>
+
+valor um:<input type="text" id="v1">
+<br><br>
+valor dois:<input type="text" id="v2">
+<br><br>
+<button onclick="-()">1</button>
+<button onclick="+()">2</button>
+<button onclick="*()">3</button>
+<button onclick="/()">4</button>
+<button onclick="-()">5</button>
+<button onclick="+()">6</button>
+<button onclick="*()">7</button>
+<button onclick="/()">8</button>
+<button onclick="*()">9</button>
+<button onclick="-()">-</button>
+<button onclick="/()">0</button>
+<button onclick="+()">+</button>
+<button onclick="*()">*</button>
+<button onclick="-()">=</button>
+<button onclick="/()">/</button>
+<br><br>
+
+resultado: <p id="resultado"></p>
+  </body>
+</html>
+

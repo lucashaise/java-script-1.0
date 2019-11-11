@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width">
+          <title>meu primeiro Javascript</title>
+          <link href="style.css" rel="stylesheet" type="text/css" />
+<script>
+function validaNome(){
+  var x = document.getElementById("nome").value;
+  if (x == "Diogo"){
+     document.getElementById("displayNome").innerHTML = x
+  }else{
+        alert("nome incorreto, bitch");
+  }
+}
+</script>  
+
+
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+<a href='ex1.html'>ex1<a>
+  <a href='ex2.html'>ex2<a>
+    <a href='ex4.html'>ex4<a>
+
+<br><br>
+
+<p>entre com seu nome</p>
+nome: <input type="text" id="nome">
+<button onclick="validaNome()">texte</button>
+<p id="displayNome"></p>
+
+<!-- id objeto expecifico, class um grupo.
+validaNome é uma funçao criada
+funçao é um trexo de codigo q tu coloca numa gavetinha e pega quando pede, pode ter qualquer nome e o (). precisa do ()
+var é outra variavel. pesquisar
+case sensitive, maiuscula e minusca tem diferenca
+em frances todas as letras do sobrenome é maiusculo
+.value => pega o valor do campo e joga na variavel (x)
+.innerHTML = x => joga no html
+-->
+  </body>
+</html>
+
